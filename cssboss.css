@@ -1,0 +1,266 @@
+h1{
+    color:black
+    }
+
+header{
+    color:blue 
+    }
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+      }
+      
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+
+.infobar{   
+    margin-top: 63px;
+    margin-left: 1520px;
+    padding: 0;
+    width: 500px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.titlebar{   
+    margin-top: 63px;
+    margin-left: 327px;
+    padding: 0;
+    width: 1200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.paragraph{   
+    margin-top: 207px;
+    margin-left: 327px;
+    padding: 0;
+    width: 1200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.words{   
+    margin-top: 215px;
+    margin-left: 347px;
+    padding: 0;
+    width: 1065px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: left;   
+    text-overflow: ellipsis;
+}
+
+.bossname{   
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 327px;
+    padding: 0;
+    width: 1101px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font: 25px Comic;
+}
+
+.infoimg{   
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 1430px;
+    padding: 0;
+    width: 500px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+ 
+
+.drops{   
+    margin-top: 450px;
+    margin-left: 1597px;
+    padding: 0;
+    width: 500px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.dropswof{   
+    margin-top: 480px;
+    margin-left: 1597px;
+    padding: 0;
+    width: 500px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.quickinfo{   
+    margin-top: 330px;
+    margin-left: 1597px;
+    padding: 0;
+    width: 500px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.quickinfowof{   
+    margin-top: 360px;
+    margin-left: 1597px;
+    padding: 0;
+    width: 500px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.icon{
+    margin-left: 750px;
+}
+
+.king{
+margin-left: 240px;
+padding: 0;
+width: 240px;
+position: fixed;
+height: 100%;
+overflow: auto;
+
+}
+      
+    .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    }
+       
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+    }
+      
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    }
+      
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    }
+      
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        }
+    .sidebar a {float: left;}
+        div.content {margin-left: 0;}
+      }
+      
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+        }
+    }
+
+
+
+.hehe{   
+    margin-top: 200px;
+    margin-left: 885px;
+    padding: 0;
+    width: 700px;
+    max-height: 700px;
+    background-position-x: center;
+    height: 100%;
+    overflow: hidden;
+}
+.hehe2{   
+    margin-top: -200px;
+    margin-left: -885px;
+    padding: 0;
+    width: 700px;
+    max-height: 700px;
+    background-position-x: center;
+    height: 100%;
+    overflow: visible;
+}
+
+
+
+.zeze{   
+    background: lightblue;
+    width: 1000px;
+    margin-top: 600px;
+    margin-left: 347px;
+    width: 525px;
+    max-height: 385px;
+    position: absolute;
+    overflow: hidden;
+}
+.zeze2{   
+    margin-top: -350px;
+    margin-left: -700px;
+    overflow: visible;
+}
+.zaza{   
+background: lightblue;
+width: 1000px;
+margin-top: 600px;
+margin-left: 885px;
+width: 525px;
+max-height: 385px;
+position: absolute;
+overflow: hidden;
+  }
+.image1pg{   
+    margin-top: 0px;
+    margin-left: -140px;
+}
+
+
+.homething{   
+    margin-top: 100px;
+    margin-left: 1633px;
+    padding: 0;
+    width: 400px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.startthing{   
+    margin-top: 100px;
+    margin-left: -100px;
+    position: fixed;
+}
+.imghom{   
+    background: lightblue;
+    width: 525px;
+    max-height: 385px;
+    position: absolute;
+    overflow: visible;
+}
+.imghom2{   
+    margin-top: -350px;
+    margin-left: -700px;
+    overflow: visible;
+}
